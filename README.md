@@ -430,7 +430,7 @@ The **AutoRetrainer** also saves:
 - **Gurram Meenakshi** — Lead Developer, System Architect & Mentor
 
 ### 🎓 Student Contributors  
-- **Student Name 1** — AI/ML Research Assistant  
+- **K.DHANUSH** — AI/ML Research Assistant  
 - **Student Name 2** — Module Developer (Content Engine)  
 - **Student Name 3** — Frontend & Streamlit UI Developer  
 - **Student Name 4** — Testing & QA Engineer  
