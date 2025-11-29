@@ -1,6 +1,6 @@
-# metrics_tracker2.py (UPDATED)
+# metrics_tracker.py (UPDATED)
 """
-Updated metrics_tracker2.py
+Updated metrics_tracker.py
 
 Integrations:
 - integrations.social_ingestor.SocialIngestor  -> fetch live post metrics (likes, replies, shares)
@@ -26,7 +26,7 @@ import pandas as pd
 from app.integrations.social_ingestor import SocialIngestor
 from app.integrations.trend_fetcher import TrendFetcher
 from app.integrations.sheets_connector import append_row, read_rows
-from app.sentiment_engine.sentiment_analyzer2 import analyze_sentiment
+from app.sentiment_engine.sentiment_analyzer import analyze_sentiment
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)

@@ -1,8 +1,8 @@
 # ============================================================
-# tracker3.py  (UPDATED FULL VERSION)
+# tracker.py  (UPDATED FULL VERSION)
 # ============================================================
 """
-Tracker3 — Central Logging Layer
+Tracker — Central Logging Layer
 
 This module standardizes logging across the project.
 Everything is logged via SHEETS CONNECTOR.
@@ -28,7 +28,7 @@ from datetime import datetime
 from typing import Any, Dict, List
 
 from app.integrations.sheets_connector import append_row
-from app.sentiment_engine.sentiment_analyzer2 import analyze_sentiment
+from app.sentiment_engine.sentiment_analyzer import analyze_sentiment
 from app.integrations.trend_fetcher import TrendFetcher
 
 

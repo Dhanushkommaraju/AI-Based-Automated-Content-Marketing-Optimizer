@@ -1,5 +1,5 @@
 """
-train_model3.py — UPDATED & INTEGRATED VERSION
+train_model.py — UPDATED & INTEGRATED VERSION
 ----------------------------------------------
 
 Purpose:
@@ -12,7 +12,7 @@ Trains the marketing performance prediction model used by:
 Integrated With:
 ----------------
 ✓ metrics_hub2.get_ml_training_data()   → ML dataset builder  
-✓ sentiment_analyzer2 / trend_fetcher   → Already enriched in dataset  
+✓ sentiment_analyzer / trend_fetcher   → Already enriched in dataset  
 ✓ Google Sheets tracking (indirectly)  
 ✓ AutoRetrainer (uses train_model function)
 
@@ -44,7 +44,7 @@ from sklearn.metrics import (
 from imblearn.over_sampling import SMOTE
 
 # Updated import — now using metrics_hub2 instead of metrics_hub3
-from app.metrics_engine.metrics_hub2 import get_ml_training_data
+from app.metrics_engine.metrics_hub import get_ml_training_data
 
 
 # ================================================================

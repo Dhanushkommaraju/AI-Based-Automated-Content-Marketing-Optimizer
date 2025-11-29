@@ -1,6 +1,6 @@
 # sentiment_analyzer2.py (UPDATED FULL VERSION)
 """
-Advanced sentiment_analyzer2.py
+Advanced sentiment_analyzer.py
 
 Upgraded with:
 ---------------------------------

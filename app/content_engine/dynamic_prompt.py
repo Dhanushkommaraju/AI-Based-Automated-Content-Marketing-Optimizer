@@ -1,5 +1,5 @@
 """
-Improved dynamic_prompt3.py
+Improved dynamic_prompt.py
 
 Upgrades added:
 - Platform-specific content rules (Twitter, LinkedIn, Instagram, YouTube, Facebook)
